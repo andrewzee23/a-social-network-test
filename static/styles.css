@@ -3,6 +3,9 @@
     margin: 0%;
     padding: 0%;
 }
+body {
+    background-color: #2b2b29;
+}
 
 a {
     text-decoration: none;
@@ -20,6 +23,10 @@ form {
     justify-content: center;
     align-content: center;
     margin-top: 100px;
+}
+
+textarea {
+    resize: none;
 }
 
 /* nav styles */
@@ -52,6 +59,10 @@ form {
 /* wraper styles */
 
 /* form styles */
+#content-field {
+    height: 250px;
+    width: 300px;
+}
 
 /* post styles */
 .post-field {
