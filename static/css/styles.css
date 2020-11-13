@@ -1,13 +1,15 @@
+/* main styles */
 * {
     margin: 0%;
     padding: 0%;
 }
-
-#name-label {
-    color: orange;
-}
-
+/* wraper styles */
 #wrapper {
     display: grid;
     grid-template-columns: 1fr;
 }
+
+/* form styles */
+
+/* post styles */
+
