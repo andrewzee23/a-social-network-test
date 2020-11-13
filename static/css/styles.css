@@ -19,6 +19,8 @@
 }
 
 /* form styles */
-
+.form-control {
+    width: 25%;
+}
 /* post styles */
 
