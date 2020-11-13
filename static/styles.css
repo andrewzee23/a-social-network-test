@@ -14,6 +14,14 @@ a:hover {
     color: #f55858;
 }
 
+form {
+    display: grid;
+    grid-auto-flow: row;
+    justify-content: center;
+    align-content: center;
+    margin-top: 100px;
+}
+
 /* nav styles */
 #navbar {
     display: grid;
@@ -46,3 +54,9 @@ a:hover {
 /* form styles */
 
 /* post styles */
+.post-field {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+}
