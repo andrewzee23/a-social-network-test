@@ -3,6 +3,15 @@
     margin: 0%;
     padding: 0%;
 }
+
+/* nav styles */
+.nav {
+    justify-content: center;
+}
+.nav-link {
+    color: black;
+}
+
 /* wraper styles */
 #wrapper {
     display: grid;
