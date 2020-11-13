@@ -4,7 +4,42 @@
     padding: 0%;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #f55858;
+}
+
 /* nav styles */
+#navbar {
+    display: grid;
+    min-height: 60px;
+    grid-auto-flow: column;
+    background-color: lightgray;
+    grid-gap: 20px;
+    padding-left: 10px;
+    padding-right: 30px;
+}
+
+#logo {
+    display: grid;
+    justify-content: start;
+    align-content: center;
+    font-size: 15px;
+}
+
+#links {
+    display: grid;
+    justify-content: end;
+    align-content: center;
+    grid-auto-flow: column;
+    grid-gap: 20px;
+    font-size: 15px;
+}
 
 /* wraper styles */
 

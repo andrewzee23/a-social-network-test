@@ -7,7 +7,21 @@
     <title>A Social Network</title>
 </head>
 <body>
+  <!-- navbar -->
+  <div id="navbar">
+    <div id="logo">
+      <h1>A Social Network.</h1>
+    </div>
+    <div class="div" id="links">
+      <a href="#">Home</a>
+      <a href="#">Sign Up</a>
+      <a href="#">Login</a>
+      <a href="#">Logout</a>
+    </div>
+  </div>
 
+
+  <!-- form -->
   <form action="/" method="POST">
     <input type="text"  id="name-field" placeholder="Name" name="name">
     <input type="text"  id="content-field" name="post" placeholder="Post Content">
@@ -15,6 +29,7 @@
   </form>
 
 
+  <!-- posts -->
   <div class="post-field">  
       {% for post in posts %}
       <div>{{ post[1] + ': ' + post[2]}}</div>
