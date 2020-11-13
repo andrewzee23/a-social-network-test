@@ -7,5 +7,13 @@
 </head>
 <body>
     
+    <form action="/" method="POST">
+        <input type="text" name="name" id="name-field" placeholder="Name">
+        <input type="text" name="post" id="content-field" placeholder="Post Content">
+        <input type="submit" value="Submit" id='submit-field'>
+    </form>
+    {% for post in posts %}
+    <div>{{ post[1] + ':' + post[2]}}</div>
+    {% endfor %}
 </body>
 </html>
