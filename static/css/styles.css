@@ -5,22 +5,9 @@
 }
 
 /* nav styles */
-.nav {
-    justify-content: center;
-}
-.nav-link {
-    color: black;
-}
 
 /* wraper styles */
-#wrapper {
-    display: grid;
-    grid-template-columns: 1fr;
-}
 
 /* form styles */
-.form-control {
-    width: 25%;
-}
-/* post styles */
 
+/* post styles */
