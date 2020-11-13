@@ -1,5 +1,5 @@
-from flask import Flask, render_template, request
-from flask_cors import CORS
+from flask import Flask, render_template, request, url_for
+from flask_cors import CORS, cross_origin
 from models import create_post, get_posts
 
 app = Flask(__name__)
@@ -7,6 +7,7 @@ app = Flask(__name__)
 CORS(app)
 
 @app.route('/', methods=['GET','POST'])
+@cross_origin()
 def index():
 
     if request.method == 'GET':
