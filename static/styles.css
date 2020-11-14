@@ -71,3 +71,7 @@ textarea {
     align-content: center;
     margin-top: 50px;
 }
+
+#post-text {
+    color: whitesmoke;
+}
