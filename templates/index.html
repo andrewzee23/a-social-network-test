@@ -1,27 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" type='text/css' href="{{ url_for('static', filename='styles.css')}}">
-    <link rel="stylesheet" href="../static/styles.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A Social Network</title>
-</head>
-<body>
-  <!-- navbar -->
-  <div id="navbar">
-    <div id="logo">
-      <h1>A Social Network.</h1>
-    </div>
-    <div class="div" id="links">
-      <a href="index.html">Home</a>
-      <a href="sign_up.html">Sign Up</a>
-      <a href="login.html">Login</a>
-      <a href="logout.html">Logout</a>
-    </div>
-  </div>
-
-
+{% extends 'base.html' %}
+{% block content %}
   <!-- form -->
   <form action="/" method="POST">
     <textarea type="text"  id="name-field" placeholder="Name" name="name"></textarea>
@@ -38,8 +16,4 @@
       <div id="post-text">{{ post[1] + ': ' + post[2]}}</div>
       {% endfor %}
   </div>
-      
-
-</body>
-
-</html>
+{% endblock %}
